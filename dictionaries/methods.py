@@ -6,6 +6,10 @@ student = {
     "year_level" :  1,
 }
 
+# ireturn ang value sa specified key (first_name)
+print(student.get("first_name"))
+
+
 # returns the value of the specified key (middle_name)
 # then if the key is not found, maginsert ug new nga key: value pair
 # and return the default value "N/A"
