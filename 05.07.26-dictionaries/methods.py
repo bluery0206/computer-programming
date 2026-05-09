@@ -7,13 +7,16 @@ student = {
 }
 
 # ireturn ang value sa specified key (first_name)
+# and unlike kadtong student['key'], kani siya if wala magexist ang key, None ra iyang ireturn
+# so dile siya mag error
 print(student.get("first_name"))
 
 
 # returns the value of the specified key (middle_name)
 # then if the key is not found, maginsert ug new nga key: value pair
-# and return the default value "N/A"
+# and return the value, passed as an argument
 print(student.setdefault("middle_name", "N/A"))
+# so in this case, ang mereturn is "N/A"
 
 # iremove ang last key-value pair sa dictionary
 # same sa pop sa list, pero igo ra gyud siya tangtang sa last key-value pair
