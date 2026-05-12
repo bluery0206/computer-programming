@@ -9,8 +9,7 @@ student = {
 # ireturn ang value sa specified key (first_name)
 # and unlike kadtong student['key'], kani siya if wala magexist ang key, None ra iyang ireturn
 # so dile siya mag error
-print(student.get("first_name"))
-
+print(student.get("awaw"))
 
 # returns the value of the specified key (middle_name)
 # then if the key is not found, maginsert ug new nga key: value pair
