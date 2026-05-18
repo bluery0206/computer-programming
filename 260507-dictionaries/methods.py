@@ -6,6 +6,11 @@ student = {
     "year_level" :  1,
 }
 
+
+# iremove ang key-value pair nga "age" : 20
+# then i return ang value nga 20
+print(student.pop("age"))
+
 # ireturn ang value sa specified key (first_name)
 # and unlike kadtong student['key'], kani siya if wala magexist ang key, None ra iyang ireturn
 # so dile siya mag error
@@ -13,7 +18,7 @@ print(student.get("awaw"))
 
 # returns the value of the specified key (middle_name)
 # then if the key is not found, maginsert ug new nga key: value pair
-# and return the value, passed as an argument
+# and return the default value
 print(student.setdefault("middle_name", "N/A"))
 # so in this case, ang mereturn is "N/A"
 
@@ -23,11 +28,6 @@ print(student.setdefault("middle_name", "N/A"))
 print(student.popitem())
 # output:
 # ('year_level', 1)
-
-
-# iremove ang key-value pair nga "age" : 20
-# then i return ang value nga 20
-print(student.pop("age"))
 
 
 # returns a list of the dictionary's values
