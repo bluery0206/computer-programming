@@ -7,6 +7,8 @@ student = {
 }
 
 
+
+
 # iremove ang key-value pair nga "age" : 20
 # then i return ang value nga 20
 print(student.pop("age"))
